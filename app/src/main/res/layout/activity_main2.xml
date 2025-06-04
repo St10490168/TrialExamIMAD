@@ -29,9 +29,9 @@
             android:layout_height="111dp"
             android:background="@color/white"
             android:ems="10"
+            android:hint="Enter Date in format yyyy-mm-dd"
             android:inputType="date"
-            android:text="Date"
-            android:textSize="26sp" />
+            android:textSize="28sp" />
 
         <EditText
             android:id="@+id/etMinutes"
@@ -42,15 +42,16 @@
             android:background="@color/white"
             android:ems="10"
             android:hint="number of minutes"
-            android:inputType="number" />
+            android:inputType="number"
+            android:textSize="26sp" />
 
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/ltSpinner"
             android:layout_width="match_parent"
             android:layout_height="69dp"
             android:layout_marginBottom="20dp"
             android:background="@color/white"
-            android:entries="7"
+            android:entries="@array/Game_genere"
             android:spinnerMode="dropdown" />
 
         <RadioButton
@@ -94,21 +95,21 @@
             android:id="@+id/btnEnter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@android:color/system_error_600"
+            android:backgroundTint="?attr/colorError"
             android:text="Enter" />
 
         <Button
             android:id="@+id/btnClear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@android:color/system_error_600"
+            android:backgroundTint="?attr/colorError"
             android:text="Clear Values" />
 
         <Button
             android:id="@+id/btnDetails"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@android:color/system_error_600"
+            android:backgroundTint="?attr/colorError"
             android:text="Go to details" />
 
     </LinearLayout>
