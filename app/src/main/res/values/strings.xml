@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MockIMAD</string>
+    <string-array name="Game_genere">
+        <item>Puzzle</item>
+        <item>Platformer</item>
+        <item>Strategy</item>
+        <item>Arcade</item>
+        <item>Horror</item>
+        <item>Shooter</item>
+        <item>Sport</item>
+    </string-array>
 </resources>
